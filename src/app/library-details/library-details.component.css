@@ -1,0 +1,38 @@
+div.container {
+  width: 800px;
+  margin: 20px auto;
+}
+ 
+p {
+  font-family: 'Lato';
+  font-size: 1.4em;
+  color: black;
+}
+ 
+p span.title {
+  color: blue;
+  width: 250px;
+  display: inline-block;
+  vertical-align: top;
+}
+ 
+p span.detail {
+  width: 500px;
+  display: inline-block;
+  font-size: 0.9em;
+  line-height: 1.7;
+}
+ 
+button {
+  margin-top: 20px;
+  font-family: 'Lato';
+  font-size: 1em;
+  background-color: #3A6;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  font-family: 'Lato';
+}

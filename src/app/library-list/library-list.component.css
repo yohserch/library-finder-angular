@@ -1,0 +1,50 @@
+div.container {
+    width: 800px;
+    margin: 20px auto;
+}
+ 
+div.library-unit {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+ 
+ 
+h4 {
+    font-family: 'Lato';
+    font-size: 1.75em;
+    color: green;
+    margin: 0;
+}
+ 
+p {
+    font-family: 'Lato';
+    font-size: 1.2em;
+    color: black;
+    font-weight: 300;
+    margin: 10px 0;
+}
+ 
+p span.title {
+    color: blue;
+    width: 250px;
+    display: inline-block;
+    vertical-align: top;
+}
+ 
+p span.detail {
+    width: 500px;
+    display: inline-block;
+    font-size: 0.9em;
+    line-height: 1.7;
+}
+ 
+a.see-more {
+    text-decoration: none;
+    background: orange;
+    color: white;
+    padding: 5px 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-family: 'Lato';
+}

@@ -1,0 +1,10 @@
+<div class="container">
+	<div *ngFor="let library of libraries" class="library-unit">
+		<div class="library-block">
+			<h4>{{library.name}}</h4>
+			<p><span class="title">Version:</span> <span class="detail">{{library.version}}</span></p>
+			<p><span class="title">Description:</span> <span class="detail">{{library.description}}</span></p>
+			<a class="see-more" routerLink="/detail/{{library.name}}">See More Details</a>
+    	</div>
+  	</div>
+</div>

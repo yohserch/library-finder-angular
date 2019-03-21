@@ -1,0 +1,17 @@
+<div class="wrapper">
+	<div class="input-container">
+		<input type="text" placeholder="Seacrh Term" (keyup)="updateTerm($event)">
+		<a class="simple" routerLink="/list/{{ searchTerm }}">List All Libraries</a>
+	</div>
+	<br>
+	<div class="input-container">
+		<input type="text" placeholder="Library Name" (keyup)="updateName($event)">
+		<a class="simple" routerLink="/detail/{{ libraryName }}">Show Library Details</a>
+	</div>
+	<br>
+	<h3>Popular Libraries</h3>
+	<div class="library-box" routerLink="/detail/jquery">jQuery</div>
+	<div class="library-box" routerLink="/detail/Chart.js">Chart.js</div>
+	<div class="library-box" routerLink="/detail/sweetalert">SweetAlert</div>
+
+</div>

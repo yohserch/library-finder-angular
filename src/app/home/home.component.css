@@ -1,0 +1,60 @@
+div.wrapper {
+  width: 800px;
+  margin: 20px auto;
+}
+ 
+h3 {
+  font-size: 1.5em;
+  text-align: center;
+  color: #666;
+  font-family: 'Lato';
+}
+ 
+a.simple {
+  background: white;
+  color: black;
+  border: 1px solid black;
+  padding: 5px 10px;
+  font-size: 1.3rem;
+  font-family: 'Lato';
+  font-weight: 300;
+  border-radius: 5px;
+  text-decoration: none;
+  width: 200px;
+  display: inline-block;
+  text-align: center;
+}
+ 
+input {
+  border: none;
+  border-bottom: 2px solid #00ccff;
+  font-size: 1.5rem;
+  outline: none;
+  font-family: 'Lato';
+  font-weight: 300;
+  margin-right: 100px;
+  width: 450px;
+}
+ 
+input:focus {
+  border-bottom: 2px solid #ccff00;
+}
+ 
+div.library-box {
+  font-family: 'Lato';
+  color: white;
+  background: purple;
+  width: 200px;
+  height: 70px;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 2em;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 20px;
+}
+ 
+div.library-box:hover {
+  background: black;
+  cursor: pointer;
+}
